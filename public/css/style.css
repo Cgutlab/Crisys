@@ -1,0 +1,378 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+	color: #515151;
+	background-color: white;
+}
+p{
+	opacity: .8;
+}
+i{
+	font-size: 18px;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.oso-menu-primary a:hover{
+	text-decoration: none;
+}
+form.header-search .input-group-text{
+	background-color: transparent;;
+}    
+.content-pre-header{
+	background-color: #8080801a;
+}
+#header-search .fas-search{
+	color: #278cea;
+	font-size: 13px;
+}
+#header-search .form-control{
+	border: none;
+	background-color: transparent;
+	padding-left: 0px;
+}
+.oso-flex{
+	display: flex;
+}
+#footer{
+	background-color: #000000b3;
+	box-sizing: border-box;
+	padding: 40px 0;
+}
+.link-oso-activo{
+	padding-bottom: 5px;
+	border-bottom: 2px solid #517fbc;
+}
+.header-buscador{
+	border: none;
+	background-color: transparent;
+	font-weight: bold;
+	font-size: 14px;
+	width: 150px !important;
+	color: gray;
+}
+#footer h6{
+	color: white;
+	font-weight: 500;
+	font-size: 14px;
+}
+#footer li a{
+	color: gray;
+	font-weight: 500;
+	white-space: nowrap;
+}
+#footer .footer-content-addres span{
+	color: white;
+	font-weight: 400;
+}
+.footer-content-addres li ul li{
+	margin-bottom: .5em;
+}
+.color-white{
+	color: white !important;
+}
+#footer i, .content-pre-header i{
+	color: #007bff;
+}
+.oso-gris-apacity{
+	color: gray;
+	opacity: .8;
+}
+
+.oso-menu-primary a{
+	color: gray;
+	font-weight: 600;
+	font-size: 14px;
+}
+.oso-menu-primary a:hover{
+	font-weight: bold;
+}
+.carousel-indicators li{
+	height: 5px;
+	width: 5px;
+}
+.title-image{
+	bottom: 10px;
+	left: 30px;
+	font-weight: bold;
+	color:#2399f2;
+}
+.footer-content-primary{
+	border-bottom: 1px solid gray;
+}
+
+.oso-vertical-middle {	
+	height: auto;
+	width: auto;
+	margin: -20% 0 0 0%;
+	left: 7%;
+}
+.oso-home-slider-title{
+	box-sizing: border-box;
+	padding: 20px 40px;
+	background-color: #0009;
+	color: white;
+	font-size: 2.2em;
+}
+.oso-home-slider-title-strong{
+	letter-spacing: 0px;
+}
+.image-presupuesto-ml-80{
+	margin-left: 80px;
+}
+.image-presupuesto-strong{
+	font-size: 3em;
+	letter-spacing: -2px;
+}
+.image-presupuesto-span{
+    font-size: 1.8em;
+    color: #b1b1b1;
+    display: inline-block;
+    margin-top: -10px;
+}
+.home-items-p{
+	font-weight: bold;
+	color: gray;
+	font-size: 1.1em;
+}
+.image-presupuesto div .image-presupuesto-link{
+	padding: 5px 40px;
+}
+.title-valor-agregado{
+	color: #727171;
+	font-size: 1.7em;
+}
+.by-osole{
+	color: gray;
+	font-size: .9em;
+	margin-top: 10px;
+}
+.title-empresa{
+	color: #80808066;
+	font-weight: bold;
+	font-size: 2.8em;
+}
+.parraf-empresa span{
+	color: #007bff;
+}
+.number-empresa{
+	font-size: 3.2em;
+	color: #007bff;
+	font-weight: bold;
+}
+.dato-text-empresa{
+	font-size: 1.6em;	
+	line-height: 1em;
+}
+.content-text-hero{
+	background-color: #8080801a;
+}
+.hero-content-text-height{
+	min-height: 100px;
+}
+.hero-content-text{
+	font-size: 3.4em;
+	font-weight: bold;
+	margin-bottom: -12px;
+	color: #bcb6b6;
+	letter-spacing: -3px;
+}
+.section-maquinas img{
+	max-height: 230px;
+	min-width: 100%;
+	object-fit: cover;
+}
+.section-maquinas p{
+	color: #007bff;
+	font-size: 1.2em;
+}
+.section-maquinas .card{
+	border:none;
+}
+.section-maquinas .card-body{
+	padding-left: 0;
+}
+.section-maquinas .maquinas-content-mas{
+	top: 20px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+	background-color: #007bffe6;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-end;
+	border-radius: 4px;
+}
+.section-maquinas .card:hover .maquinas-content-mas{
+	display: flex !important;
+}
+.section-maquinas .maquinas-content-mas p{
+	margin-left: 20px;
+	font-size: 2em;
+	font-weight: bold;
+}
+.hero-content-text i{
+	font-size: .8em;
+}
+.section-prestaciones img{
+	border: 1px solid #80808066;
+}
+.section-prestaciones p{
+	font-size: 14px;
+	margin-top: 10px;	
+}
+.section-productos-relacionados .linea{
+	border-bottom: 1px solid #8080804d;
+	position: relative;
+	top: -23px;
+}
+.icon-pructos-relacionados{
+	font-size: 1.6em;
+	color: #007bff;
+}
+.section-productos-relacionados p{
+	color: #007bff;
+}
+.imagen-producto-individual{
+	width: 100%;
+	object-fit: cover;
+}
+.titulo-producto-individual{
+	color: #007bff;
+	font-weight: bold;
+	font-size: 1.6em;
+	padding-bottom: 5px;
+	border-bottom: 2px solid black;
+	margin-bottom: 25px;
+}
+.color-azul-bootstrap{
+	color: #007bff;
+}
+.subtitulo-producto-individual{
+	font-size: 1.3em;	
+	border-bottom: 1px solid #0006;
+}
+.section-videos .card{
+	min-height: 330px;
+	max-height: 330px;
+}
+.section-casos-exitos .list-group-item{
+	background-color: #d5d5d533;
+}
+.section-productos-relacionados h3{
+	color: #808080b3;
+}
+.iframe-map-crisys{
+	max-height: 300px;
+}
+.form-contacto input,
+.form-contacto textarea,
+.form-presupuesto input,
+.form-presupuesto textarea{ 
+	background-color: #cbcbcb1a;
+}
+.footer-content-addres i{
+	left: -20px;
+}
+.logo-menu-header{
+	max-width: 80%;
+	display: block;
+	margin: auto;
+}
+.btn{
+	cursor: pointer;
+}
+.content-soluciones span{
+    font-size: .8em;
+    color: #80808099;
+    font-weight: 600;
+}
+.content-soluciones p{
+	font-weight: bold;
+}
+.linerar-vertical{
+	height: 180px;
+	width: 0px;
+	border: 1px solid #0006;
+	margin: 20px auto;
+}
+.linear-solicitar-propuesta{
+	border: 1px solid #8080801a;
+}
+@media(max-width: 992px){
+	.linerar-vertical{
+		display: none;
+	}
+	.wrapper{
+		max-width: 95%;
+		margin: auto;
+	}
+	.oso-home-slider-title{
+		font-size: 1em;
+	}
+	.oso-mobile-d-none{
+		display: none;
+	}
+}
+@media(max-width: 767px){
+	.hero-content-text{
+		font-size: 2em;
+		margin-bottom: -6px;	
+	}
+	.oso-mb-3{
+		margin-bottom: 2em;
+	}
+	.oso-mt-3{
+		margin-top: 2em;
+	}
+	.oso-mobile-w-100{
+		width: 100%;
+	}
+	.oso-mobile-text-center{
+		text-align: center !important;
+	}
+	.footer-content-addres i{
+		position: static !important;
+   	 	margin-right: 10px;
+	}
+	.oso-mobile-maxwidth-100{
+		max-width: 100%;
+	}
+	.icon-center-mobile{
+		min-width: 100% !important;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.section-videos .card {
+	    min-height: 300px;
+	    max-height: 300px;
+
+	}
+	.oso-vertical-middle {
+	    top: 70%;
+	}
+}
+@media(max-width: 400px){
+	.oso-vertical-middle{
+		left: 0;
+	}
+	.oso-home-slider-title {
+	    padding: 20px 10px;
+	}
+	.image-presupuesto-ml-80 {
+	    margin-left: 40px;
+	}
+	.image-presupuesto-strong {
+	    font-size: 2em;
+	}
+}
+
+
+
+
